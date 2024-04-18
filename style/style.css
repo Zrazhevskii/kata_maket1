@@ -5,7 +5,59 @@
 }
 
 body {
-    background: orange;
+    background-color: #c64d4d;
+
+    .header {
+        max-width: 320px;
+        min-height: 88px;
+        border: 2px solid black;
+        margin: auto;
+
+        .header__nav {
+            display: flex;
+            align-items: center;
+            max-width: 320px;
+            min-height: 88px;
+            background-color: #fff;
+            padding-left: 16px;
+
+            .header__link {
+                .header__link__image {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 16px;
+                }
+
+                .header__link__image__divider {
+                    width: 2px;
+                    height: 32px;
+                }
+
+                .header__link__image__group {
+                    width: 97px;
+                    height: 51px;
+                }
+            }
+
+            .header__link:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .main {
+        display: flex;
+        max-width: 320px;
+        max-height: 510px;
+        background-color: #f8f8f8;
+        margin: auto;
+
+        .main__services {
+            max-width: 100%;
+            height: 300px;
+            background-color: #f8f8f8;
+        }
+    }
 }
 
 @media (width <= 600px) {
