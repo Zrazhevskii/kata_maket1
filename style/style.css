@@ -43,11 +43,12 @@
 body {
     background-color: #c64d4d;
     font-family: 'TT Lakes';
+}
 
+/* @media (width <= 320px) { */
     .header {
         max-width: 320px;
-        min-height: 88px;
-        /* border: 2px solid black; */
+        max-height: 88px;
         margin: auto;
 
         .header__nav {
@@ -59,18 +60,19 @@ body {
             padding-left: 16px;
 
             .header__link {
-                .header__link__image {
+                .header__link-image {
                     width: 40px;
                     height: 40px;
                     margin-right: 16px;
                 }
 
-                .header__link__image__divider {
+                .header__link-image-divider {
                     width: 2px;
                     height: 32px;
+                    /* margin-right: 16px; */
                 }
 
-                .header__link__image__group {
+                .header__link-image-group {
                     width: 97px;
                     height: 51px;
                 }
@@ -87,7 +89,6 @@ body {
         flex-direction: column;
         max-width: 320px;
         height: 510px;
-        /* min-height: 400px; */
         background-color: #f8f8f8;
         margin: auto;
         padding: 16px;
@@ -95,10 +96,20 @@ body {
         .main__title {
             font-family: 'TT Lakes Condensed';
             min-height: 40px;
-            /* padding-bottom: 16px; */
             margin-bottom: 24px;
-            border-left: 3px solid #41f6d7;
-            border-radius: 5px;
+            /* border-left: 3px solid #41f6d7;
+            border-radius: 5px; */
+        }
+
+        .main__title::before {
+            content: '';
+            display: block;
+            width: 5px;
+            height: 100%;
+            border-right: 4px solid #41f6d7;
+            border-radius: 15px;
+            float: left;
+            margin-left: -20px;
         }
 
         .main__services {
@@ -108,35 +119,30 @@ body {
             overflow-x: auto;
             background-color: #f8f8f8;
             margin-bottom: 24px;
+            z-index: 10;
 
             .main__item {
                 box-sizing: content-box;
                 width: 246px;
                 height: 40px;
-                display: table-cell;
-                vertical-align: middle;
+                /* margin-right: 10px; */
 
-                .main__item__button {
+                .main__item-link {
                     display: flex;
-                    width: 246px;
-                    line-height: 40px;
                     justify-content: center;
                     align-items: center;
+                    min-width: 212px;
                     text-decoration: none;
-                    /* font-size: 14px; */
                     color: #7e7e82;
-                    width: 246px;
                     height: 40px;
-                    border: none;
                     background-color: #f8f8f8;
-                    z-index: 1;
                 }
 
-                .main__item__button_active {
+                .main__item-link-active {
+                    min-width: 246px;
                     border: 2px solid #b8ffec;
                     background-color: #fff;
                     border-radius: 10px;
-                    z-index: 10;
                 }
             }
 
@@ -146,7 +152,7 @@ body {
         }
     }
     .main__services::-webkit-scrollbar {
-        display: none; 
+        display: none;
     }
 
     .main__content {
@@ -155,15 +161,15 @@ body {
         max-height: 90%;
         /* margin-top: 16px; */
 
-        .main__content__item {
+        .main__content-item {
             margin-bottom: 24px;
         }
 
-        .main__content__text {
+        .main__content-text {
             font-size: 14px;
         }
 
-        .main__content__icon {
+        .main__content-icon {
             display: flex;
             flex-direction: row;
             /* margin-top: 16px; */
@@ -174,24 +180,19 @@ body {
                 height: 24px;
                 background-image: url('/style/img/expand.png');
             }
-
-            /* .main__content__ownards__text {
-                margin-left: 16px;
-                font-size: 14px;
-            } */
         }
 
-        .main__content__image {
+        .main__content-image {
             width: 100%;
             height: 160px;
             background: no-repeat url('/style/img/_MG_3223.png');
             background-size: cover;
         }
     }
-}
+/* } */
 
-@media (width <= 600px) {
-    body {
-        background: black;
-    }
+
+
+@media (321 < width < 760) {
+
 }
