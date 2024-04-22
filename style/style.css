@@ -402,7 +402,7 @@ body {
 
 /* @media (768.1px <= width) { */
 .header {
-    max-width: 760px;
+    max-width: 1200px;
     max-height: 88px;
     margin: auto;
 
@@ -411,7 +411,7 @@ body {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        max-width: 760px;
+        max-width: 1200px;
         min-height: 88px;
         background-color: #fff;
         padding-left: 16px;
