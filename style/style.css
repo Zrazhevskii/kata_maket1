@@ -49,7 +49,6 @@ body {
     .header {
         max-width: 25vw;
         max-height: 88px;
-        margin: auto;
 
         .header__nav {
             display: flex;
@@ -102,7 +101,7 @@ body {
         max-width: 320px;
         height: 510px;
         background-color: #f8f8f8;
-        margin: auto;
+        /* margin: auto; */
         padding: 16px;
 
         .main__curtain {
@@ -261,7 +260,7 @@ body {
         max-width: 760px;
         height: 416px;
         background-color: #f8f8f8;
-        margin: auto;
+        /* margin: auto; */
         padding: 24px;
 
         .main__curtain {
@@ -300,14 +299,14 @@ body {
 
                 .main__item {
                     box-sizing: content-box;
-                    width: 246px;
+                    /* width: 246px; */
                     height: 40px;
 
                     .main__item-link {
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        min-width: 212px;
+                        min-width: 220px;
                         text-decoration: none;
                         color: #7e7e82;
                         height: 40px;
