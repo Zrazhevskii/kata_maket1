@@ -101,7 +101,6 @@ body {
         max-width: 320px;
         height: 510px;
         background-color: #f8f8f8;
-        /* margin: auto; */
         padding: 16px;
 
         .main__curtain {
@@ -260,7 +259,6 @@ body {
         max-width: 760px;
         height: 416px;
         background-color: #f8f8f8;
-        /* margin: auto; */
         padding: 24px;
 
         .main__curtain {
@@ -299,7 +297,6 @@ body {
 
                 .main__item {
                     box-sizing: content-box;
-                    /* width: 246px; */
                     height: 40px;
 
                     .main__item-link {
