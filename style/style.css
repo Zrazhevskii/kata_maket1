@@ -282,7 +282,7 @@ body {
         padding-left: 18px;
     }
 
-    .stick--two::before {
+    .repair::before {
         content: '';
         display: block;
         width: 2px;
@@ -292,7 +292,7 @@ body {
         margin-left: -3.3vw;
     }
 
-    .stick--one::before {
+    .logo::before {
         content: '';
         display: block;
         width: 2px;
