@@ -9,25 +9,30 @@
 <body>
     <header class="header">
         <nav class="header__nav">
-            <div class="header__conteiner">
-                <a class="header__link" href="#"><img class="header__link-image" src="./style/img/burger.png" alt="Гамбургер меню"></a>
-                <a class="header__link" href="#"><img class="header__link-image header__link-image-divider header__link--hidden" src="./style/img/divider.png" alt=""></a>
-                <a class="header__link" href="#"><img class="header__link-image header__link-image-group" src="./style/img/Group.png" alt="Логотоп"></a>
+            <div class="header__conteiner box-one">
+                <div class="header__img burger"></div>
+                <div class="header__img logo">
+                    <img src="/style/img/Group.png" alt="Логотоп компании" class="header-logo">
+                </div>
             </div>
-            <div class="header__conteiner">
-                <a class="header__link" href="#"><img class="header__link-image header__link--hidden" src="./style/img/call.png" alt=""></a>
-                <a class="header__link" href="#"><img class="header__link-image header__link--hidden" src="./style/img/chat.png" alt=""></a>
-                <a class="header__link" href="#"><img class="header__link-image header__link--hidden" src="./style/img/profile.png" alt=""></a>
-                <a class="header__link" href="#"><img class="header__link-image header__link-image-divider" src="./style/img/divider.png" alt=""></a>
-                <a class="header__link" href="#"><img class="header__link-image" src="./style/img/repair.png" alt=""></a>
-                <a class="header__link" href="#"><img class="header__link-image" src="./style/img/checkstatus.png" alt=""></a>
+            <div class="header__conteiner box-two">
+                <div class="header__img call header--hidden"></div>
+                <div class="header__img chat header--hidden"></div>
+                <div class="header__img profile header--hidden"></div>
+                <div class="header__img repair"></div>
+                <div class="header__img checkstatus" href="#"></div>
             </div>
         </nav>
+        <div class="header__conteiner-title">
+            <h1 class="header__title">Услуги и сервисы</h1>
+            <div class="header__conteiner-button">
+                <button class="header__button repair"><b>Оставить заявку</b></button>
+                <button class="header__button checkstatus"><b>Статус ремонта</b></button>
+            </div>
+        </div>
     </header>
     <main class="main">
-        <div class='main__curtain'></div>
         <section class="main__services">
-            <h1 class="main__title">Услуги и сервисы</h1>
             <div class="main__servises-items">
                 <div class="main__item">
                     <a class="main__item-link main__item-link-active">Ремонтируемые устройства</a>
@@ -44,6 +49,9 @@
                 <div class="main__item">
                     <a href="" class="main__item-link">Специальные цены</a>
                 </div>
+                <div class="main__item">
+                    <a href="" class="main__item-link">Отзывы</a>
+                </div>
             </div>    
         </section>
         <section class="main__content">
@@ -53,7 +61,8 @@
                     Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
                     </p>
                     <p class="main__content-text main__content-text--hidden">
-                        Мы успешно работаем с 1992 года изаслужили репутацию надежного партера
+                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="main__content-more-text">, что подтверждает большое количество постоянных клиентов. 
+                        Мы гордимся, что к нам обращаются по рекомендациям и, в свою очередь советуют нас родным и близким.</span>
                     </p>  
                 </div>
                 <div class="main__content-icon main__content-item">
@@ -62,7 +71,7 @@
                 </div>
             </div>
             <div class="main__content-wrapper-image">
-                <div class="main__content-image"></div>
+                <img src="/style/img/_MG_3223.jpg" alt="Фотография офиса" class="main__content-image">
             </div>
         </section>
     </main>
