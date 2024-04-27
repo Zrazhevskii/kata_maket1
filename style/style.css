@@ -289,11 +289,11 @@ body {
     }
 
     .chat {
-        background: no-repeat url('/style/img/chat.png');
+        background: no-repeat url('../style/img/chat.png');
     }
 
     .profile {
-        background: no-repeat url('/style/img/profile.png');
+        background: no-repeat url('../style/img/profile.png');
         padding-right: 18px;
     }
 
@@ -344,7 +344,7 @@ body {
     }
 
     .main__icon {
-        background: no-repeat url('/style/img/expand.png');
+        background: no-repeat url('../style/img/expand.png');
         padding-right: 8px;
     }
 
@@ -414,11 +414,11 @@ body {
     }
 
     .repair {
-        background: url("style/img/repair.png") no-repeat right;
+        background: url("../style/img/repair.png") no-repeat right;
     }
 
     .checkstatus {
-        background: url("/style/img/checkstatus.png") no-repeat
+        background: url("../style/img/checkstatus.png") no-repeat
             right;
     }
 
@@ -446,7 +446,6 @@ body {
     }
 
     .main__content {
-        /* display: flex; */
         flex-direction: row;
         padding-top: 30px;
     }
@@ -478,7 +477,7 @@ body {
         box-sizing: content-box;
         width: 24px;
         height: 24px;
-        background: url('style/img/expand.png') no-repeat;
+        background: url('../style/img/expand.png') no-repeat;
         padding-right: 8px;
     }
 
