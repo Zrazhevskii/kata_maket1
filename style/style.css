@@ -72,11 +72,11 @@ body {
 }
 
 .burger {
-    background: url('/style/img/burger.png') no-repeat;
+    background: url('style/img/burger.png') no-repeat;
 }
 
 .repair {
-    background: url('/style/img/repair.png') no-repeat;
+    background: url('style/img/repair.png') no-repeat;
 }
 
 .box-two::before {
@@ -89,7 +89,7 @@ body {
 }
 
 .checkstatus {
-    background: url('/style/img/checkstatus.png');
+    background: url('style/img/checkstatus.png');
 }
 
 .logo {
@@ -213,7 +213,7 @@ body {
 .main__icon {
     width: 24px;
     height: 24px;
-    background-image: url('/style/img/expand.png');
+    background-image: url('style/img/expand.png');
 }
 
 .main__content-image {
@@ -245,7 +245,7 @@ body {
     }
 
     .repair {
-        background: no-repeat url('/style/img/repair.png') right;
+        background: no-repeat url('style/img/repair.png') right;
         padding-left: 18px;
     }
 
@@ -286,15 +286,15 @@ body {
     }
 
     .call {
-        background: no-repeat url('/style/img/call.png');
+        background: no-repeat url('style/img/call.png');
     }
 
     .chat {
-        background: no-repeat url('/style/img/chat.png');
+        background: no-repeat url('style/img/chat.png');
     }
 
     .profile {
-        background: no-repeat url('/style/img/profile.png');
+        background: no-repeat url('style/img/profile.png');
         padding-right: 18px;
     }
 
@@ -345,7 +345,7 @@ body {
     }
 
     .main__icon {
-        background: no-repeat url('/style/img/expand.png');
+        background: no-repeat url('style/img/expand.png');
         padding-right: 8px;
     }
 
@@ -415,11 +415,11 @@ body {
     }
 
     .repair {
-        background: transparent url('/style/img/repair.png') no-repeat right;
+        background: transparent url('style/img/repair.png') no-repeat right;
     }
 
     .checkstatus {
-        background: transparent url('/style/img/checkstatus.png') no-repeat
+        background: transparent url('style/img/checkstatus.png') no-repeat
             right;
     }
 
@@ -479,7 +479,7 @@ body {
         box-sizing: content-box;
         width: 24px;
         height: 24px;
-        background: no-repeat url('/style/img/expand.png');
+        background: no-repeat url('style/img/expand.png');
         padding-right: 8px;
     }
 
