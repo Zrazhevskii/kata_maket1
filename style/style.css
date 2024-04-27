@@ -222,7 +222,6 @@ body {
 }
 
 @media (768px <= width < 1120px) {
-
     .header__nav {
         padding-left: 24px;
         padding-right: 24px;
@@ -415,11 +414,11 @@ body {
     }
 
     .repair {
-        background: transparent url('/style/img/repair.png') no-repeat right;
+        background: url("style/img/repair.png") no-repeat right;
     }
 
     .checkstatus {
-        background: transparent url('/style/img/checkstatus.png') no-repeat
+        background: url("/style/img/checkstatus.png") no-repeat
             right;
     }
 
@@ -479,7 +478,7 @@ body {
         box-sizing: content-box;
         width: 24px;
         height: 24px;
-        background: no-repeat url('/style/img/expand.png');
+        background: url('style/img/expand.png') no-repeat;
         padding-right: 8px;
     }
 
